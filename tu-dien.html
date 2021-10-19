@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let nhap = prompt("Nhap gi do")
+    let a = ["cat", "dog", "chicken"];
+    let b = ["meo", "cho", "ga"];
+    let result = ''
+    let check = false
+    for (let i = 0; i < nhap.length; i++) {
+        if (nhap === a[i]) {
+            check = true
+            alert(result = b[i])
+            break;
+        }
+    }
+    if (check === false)
+        alert('Khong tim thay')
+</script>
+</html>
